@@ -50,7 +50,7 @@ if (defined('ENABLE_TEST_LOGIN') && ENABLE_TEST_LOGIN) {
         exit;
     }
 }
-
+//testing bypass: master password (for demo purposes only, do NOT use in production)
  $MASTER_PASSWORD = "admin123";
 
 if ($password === $MASTER_PASSWORD) {
